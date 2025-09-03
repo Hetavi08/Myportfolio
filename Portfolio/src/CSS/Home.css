@@ -1,0 +1,81 @@
+/* Hero Section Full Height */
+/* .hero-section {
+  padding: 0;
+  background-color: #1f1f1f;
+} */
+
+.Name {
+
+    font-size: 100px;
+    font-weight: 400;
+}
+
+/* Box Style*/
+.highlight-box {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffe600;
+  color: #000000;
+  font-weight: bold;
+  font-size: 30px;
+  border-left: 10px solid #ffffff;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  max-width: 3200px;
+
+}
+
+/* Typing Animation highlight box */
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2.5s steps(10) forwards, blink-caret 2s step-end infinite;
+}
+
+
+
+/* Keyframes for typing */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 400px;
+  }
+}
+
+
+
+
+@keyframes blink-caret {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #c6ff00;
+  }
+}
+
+
+
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.text-animation {
+  animation: slideInLeft 3s ease-out;
+}
+
+

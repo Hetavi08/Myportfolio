@@ -1,0 +1,21 @@
+.icon {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+strong {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  margin-bottom: 0;
+}
+

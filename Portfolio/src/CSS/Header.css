@@ -1,0 +1,51 @@
+
+
+.custom-header {
+  background-color: #121212;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.logo:hover {
+  color: #f39c12;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f39c12;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}
