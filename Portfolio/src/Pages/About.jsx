@@ -9,7 +9,7 @@ const About = () => {
       <Header />
 
       <section id="about" className="py-5 bg-dark text-light">
-        <div className="container px-3 px-md-5">
+        <div className="container px-3 px-md-5 pt-5 pb-5">
           <div className="row align-items-center">
             {/* Image Section */}
             <div className="col-12 col-md-5 text-center mb-4 mb-md-0">
